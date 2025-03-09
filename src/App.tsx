@@ -1,11 +1,9 @@
-import './App.css';
+import { Routes } from './routers';
 
 function App() {
-  const a: number = 5;
-
   return (
     <>
-      <p>{a}</p>
+      <Routes />
     </>
   );
 }
