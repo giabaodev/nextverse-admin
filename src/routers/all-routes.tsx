@@ -1,6 +1,6 @@
 import { PATH_NAME, PathNameValue } from '@/constants';
-import Auth from '@/pages/Auth';
-import Dashboard from '@/pages/Dashboard';
+import { Auth, Product } from '@/pages';
+
 import { JSX } from 'react';
 
 export interface RouteItem {
@@ -18,5 +18,5 @@ export const publicRoutes: RouteItem[] = [
 ];
 
 export const privateRoutes: RouteItem[] = [
-  { path: PATH_NAME.DASHBOARD, element: <Dashboard /> },
+  { path: PATH_NAME.PRODUCTS, element: <Product /> },
 ];
